@@ -1,0 +1,39 @@
+.transparentinput {
+	background: transparent;
+	border: 3px solid white;
+	color: white;
+	padding: 1em 1.6em;
+	font-weight: bold;
+	font-weight: 100;
+	border-radius:5px;
+	line-height:1em;
+	text-align: center;
+}
+.transparentlogin {
+	background: transparent;
+	border: 3px solid white;
+	color: white;
+	text-align: center;
+	
+}
+.buttoncolor{
+	color: #1f8dd6;
+	background-color: white; 
+}
+.textcolor{
+	color: white;
+}
+.content-wrapper1{
+	top: 10%;
+}
+@media (min-width: 48em) {
+	.transparentinput {
+		font-size: 190%;
+	}
+}
+@media (min-width: 78em) {
+    /* We increase the header font size even more */
+    .transparentinput {
+        font-size: 240%;
+    }
+}
